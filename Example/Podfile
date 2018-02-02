@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LogSDK_Example' do
+  pod 'LogSDK', :path => '../'
+
+  target 'LogSDK_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
