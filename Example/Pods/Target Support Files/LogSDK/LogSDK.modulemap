@@ -1,0 +1,6 @@
+framework module LogSDK {
+  umbrella header "LogSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
